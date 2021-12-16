@@ -1,0 +1,139 @@
+*{
+    margin:0;
+}
+canvas{
+    cursor: crosshair;
+    background-color: rgb(46, 46, 46);
+}
+.icon-pallet{
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    height: 4rem;
+    width: 50vw;
+    margin: auto;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+.icon-pallet>div{
+    background-color: rgb(163, 163, 163);
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: .4rem;
+}
+.shapes{
+    width: 17%;
+}
+.no{
+    width:17%;
+}
+.tools{
+    width:22%;
+}
+.notes{
+    width: 5%;
+}
+
+.fa-arrows-alt-v{
+    transform: rotateZ(45deg);
+}
+.icon{
+    font-size: 1.7rem;
+    padding: .4rem;
+}
+.size{
+    margin-left: .25rem;
+    margin-right: .25rem;
+    height: 2.5rem;
+    width: .2rem;
+    border: none;
+    -webkit-appearance: slider-vertical;
+    display: none;
+}
+ 
+.color-pallet{
+    border: 2px solid black;
+    border-radius: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width:7rem;
+    padding: .2rem;
+}
+.color-pallet>div{
+    margin: .1rem;
+    border: 1px solid black;
+    border-radius: 25%;
+    height: 1.1rem;
+    width: 1.1rem;
+}
+.color-pallet>img{
+    margin: .1rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 1.1rem;
+    width: 1.1rem;
+}
+.more-colors{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+.red{
+    background-color: red;
+}.green{
+    background-color: rgb(88, 252, 88);
+}.blue{
+    background-color: rgb(71, 197, 255);
+}.yellow{
+    background-color: yellow;
+}.violet{
+    background-color: rgb(252, 73, 252);
+}.black{
+    background-color: black;}
+.white{
+    background-color: rgb(255, 255, 255);}
+
+/* Sticky Notes */
+.sticky{
+    width: 200px;
+    height: 175px;
+    box-shadow: rgb(87, 86, 86) 0px 10px 15px;
+}
+.navbar{
+    display: flex;
+    height: 13%;
+    justify-content: flex-end;
+    cursor:grab;
+}
+textarea{
+    margin: 5px;
+    height: 78%;
+    width: 93%;
+    border: none;
+    outline: none;
+    border-top: 1px solid gray;
+}
+.close{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.minimize{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: lightgreen;
+    margin-right: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}

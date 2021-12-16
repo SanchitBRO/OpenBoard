@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="icon-pallet">
+        <div class="no">
+            <i class="far fa-plus-square icon"></i>
+            <i class="far fa-save icon" ></i>
+        </div>
+        <div class="tools">
+            <i class="fas fa-pencil-alt icon"></i>
+            <input type="range" class="size" min="1" max="10" value="3">
+            <i class="fas fa-eraser icon"></i>
+            <input type="range" class="size" min="10" max="50" value="20">
+        </div>
+        <div class="shapes">
+            <i class="far fa-square icon"></i>
+            <input type="range" class="size" min="1" max="10" value="3">
+            <i class="fas fa-arrows-alt-v icon"></i>
+            <input type="range" class="size" min="1" max="10" value="3">
+        </div>
+        <div class="notes">
+            <i class="far fa-sticky-note icon"></i>
+        </div>
+        <div class="color-pallet">
+            <div class="red"></div>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="black"></div>
+            <div class="yellow"></div>
+            <div class="violet"></div>
+            <div class="white"></div>
+            <img class="color-wheel" src="color.png" alt="">
+        </div>
+        <input type="color" class="more-colors">
+    </div>
+    </div>
+
+    <canvas></canvas>
+    <script src="https://kit.fontawesome.com/ce63ad5eab.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
